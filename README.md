@@ -25,7 +25,7 @@ tsc
 
 6. Start Rpc to wallet
 ```bash
-./arqma-wallet-rpc []
+./arqma-wallet-rpc --wallet-file arqma --rpc-bind-port 19996 --password password [--disable-rpc-login] [--rpc-login test:1234]
 ```
 
 7. configure wallet-thingy, change wallet and/or redis connection details.
