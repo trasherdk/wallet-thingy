@@ -1,0 +1,14 @@
+{
+	"redis": {
+		"host": "127.0.0.1",
+		"port": 6379,
+		"auth": null,
+		"db": 0
+	},
+	"wallet": {
+		"host": "127.0.0.1",
+		"port": 19996,
+		"username": null,
+		"password": null
+	}
+}

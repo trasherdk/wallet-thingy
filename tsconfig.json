@@ -1,0 +1,22 @@
+{
+    "files": [
+        "src/index.ts"
+    ],
+    "compilerOptions": {
+        "module": "commonjs",
+        "types": ["reflect-metadata"],
+        "moduleResolution": "node",
+        "target": "es6",
+        "outDir": "./dist",
+        "sourceMap": false,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "lib": [ "es6", "dom" ]
+    },
+    "include": [
+        "./src/**/*.ts"
+    ],
+    "exclude": [ "node_modules",
+                 "src" ],
+    "compileOnSave": true
+}

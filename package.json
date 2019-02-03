@@ -1,0 +1,31 @@
+{
+  "name": "distibution",
+  "version": "1.0.0",
+  "description": "distibution",
+  "repository": "someplace",
+  "main": "index.js",
+  "scripts": {
+    "build-ts": "tsc"
+  },
+  "author": "muscleman",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bluebird": "3.5.20",
+    "@types/es6-promise": "^3.3.0",
+    "@types/ioredis": "^4.0.6",
+    "bluebird": "3.5.1",
+    "core-js": "2.5.6",
+    "es6-promise": "4.2.4",
+    "inversify": "^5.0.1",
+    "ioredis": "^4.5.1",
+    "npm": "6.0.1",
+    "reflect-metadata": "^0.1.13",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5",
+    "rxjs": "6.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "9.6.15",
+    "typescript": "2.7.2"
+  }
+}
