@@ -16,7 +16,24 @@ npm install
 tsc
 ```
 
-4. Run
+4. Prepare, start a monero daemon
+```
+./arqmad 
+```
+
+5. Create a wallet
+
+6. Start Rpc to wallet
+```bash
+./arqma-wallet-rpc []
+```
+
+7. configure wallet-thingy, change wallet and/or redis connection details.
+```bash
+nano config.json
+```
+
+8. Run
 ```bash
 node dist/index.js
 ```
