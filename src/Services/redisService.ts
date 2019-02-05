@@ -21,6 +21,7 @@ export class RedisService implements IRedisService {
 	}
 	
 	public RecordIncomingTransfers(transfers:Array<ITransfer>) : void {
+		//console.log(this.transferFactory.Hydrate(transfers).toHMSET())
 		this.Redis.multi(this.transferFactory.Hydrate(transfers).toHMSET()).exec()
 	}
 	

@@ -17,7 +17,6 @@ export class DistributionService {
 	public async getIncomingTransfers() : Promise<string> {
 		try {
 				let response = await this.walletService.IncomingTransfersAsync(TransferType.Available)
-				if (!response) return 'failed1'
 				let transfers: Array<ITransfer> = <Array<ITransfer>>response.result.transfers
 				await this.redisService.RecordIncomingTransfers(transfers)
 				return 'success'

@@ -8,7 +8,7 @@
 	"wallet": {
 		"host": "127.0.0.1",
 		"port": 19996,
-		"username": null,
-		"password": null
+		"username": "test",
+		"password": "1234"
 	}
 }
