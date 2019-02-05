@@ -16,6 +16,9 @@ export class DistributionService {
 
 	public async getIncomingTransfers() : Promise<string> {
 		try {
+			//let response = await this.walletService.Request('getbalance', null)
+			//console.log(response)
+			
 				let response = await this.walletService.IncomingTransfersAsync(TransferType.Available)
 				let transfers: Array<ITransfer> = <Array<ITransfer>>response.result.transfers
 				await this.redisService.RecordIncomingTransfers(transfers)
