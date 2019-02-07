@@ -2,7 +2,7 @@ import * as request from "request-promise-native"
 import * as http from "http"
 import { IWalletService } from "../Interfaces/iwalletService"
 import { IConfigurationService } from "../Interfaces/iconfigurationService"
-import { TransferType } from "../Enums/TransferType"
+import { TransferType } from "../Enums/transferType"
 import { inject, injectable } from "inversify"
 import { TYPES } from "../types"
 
@@ -20,7 +20,7 @@ export class WalletService implements IWalletService {
 					     agent: new http.Agent({
 							            keepAlive: true,
 							            maxSockets: 1
-					     				}),
+									}),
 					     headers: {
 					        'Content-Type': 'application/json',
 					        'Accept': 'application/json'

@@ -1,4 +1,4 @@
-import { TransferType } from "../Enums/TransferType";
+import { TransferType } from "../Enums/transferType";
 
 export interface IWalletService {
 	Request(method:string, params:any) : Promise<any>
