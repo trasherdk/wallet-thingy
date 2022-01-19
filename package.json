@@ -1,8 +1,8 @@
 {
   "name": "wallet-thingy",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "distibution",
-  "repository": "someplace",
+  "repository": "git@github.com:trasherdk/wallet-thingy.git",
   "main": "index.js",
   "scripts": {
     "build-ts": "tsc"
